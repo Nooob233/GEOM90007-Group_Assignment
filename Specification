@@ -1,0 +1,181 @@
+# Assignment 3
+
+
+### Table of Content
+
+- [Objective](#objective)
+- [Learning Outcomes](#learning-outcomes)
+- [Your Task](#your-task)
+- [Ideas](#ideas)
+- [Technical Requirements](#technical-requirements)
+- [Submission](#submission)
+- [Deadline](#deadline)
+- [Assessment Criteria](#assessment-criteria)
+- [Hints](#hints)
+- [Plagiarism](#plagiarism)
+- [Q&A](#qa)
+- [Rubric](#rubric)
+
+### Objective
+
+1. To develop a rich, engaging, innovative, interactive interface designed for a specific audience and purpose;
+2. To build on the techniques and principles learned during the subject and previous assessments, and extend yourselves further;
+3. To work together as a team to create a single cohesive information visualisation product.
+4. To gain practice pitching your implemented product to a client by creating a professional video.
+
+### Learning Outcomes
+
+- ILO 1. Apply the cognitive and technical principles of information visualisation across various domains
+- ILO 2. Critically evaluate the designs of maps and user interfaces for spatial information visualisation
+- ILO 3. Develop various types of visualisation platforms in order to analyse big data sets
+
+### Your Task
+
+> **This is a group assignment.**
+>
+> Assignment 3 briefing slides (including links to Tableau, R and Shiny resources): [Assignment 3 briefing 2024.pdf](https://canvas.lms.unimelb.edu.au/courses/188035/files/20877633?wrap=1)
+
+In the age of big and open data, it is important to be able to sort through many different datasets, organise them for a specific purpose and decide on a visualisation based on contextual factors, such as target audience or purpose. 
+
+For Assignment 3, you will work for the City of Melbourne (your client). Your task is to pick a target audience (user group) and create an interactive visualisation/interface that will be tailored to this user group:
+
+1. Tourists who would like to/are visiting Melbourne (hint: useful layer is e.g. POIs (Points of Interest))
+2. Local citizens who often commute to the CBD (useful layers: public transport networks)
+3. A state government department that is interested in the performance of any of public transport, Metro Tunnel, vehicle volume, pedestrian counts, etc. (not limited to transport)
+4. If you would like to target a different user group, please discuss it with the Senior Tutor, Alan Thomas.
+
+Your interface should be intuitive and easy to use, carefully designed, and help the users to discover interesting and practical information about the City of Melbourne or help the government agency identify interesting patterns in the data or make decisions for specific tasks.
+
+### Ideas
+
+The process of working on Assignment 3 will include the following steps:
+
+- data selection and formatting
+- some descriptive statistics and data analyses (initially to develop your own understanding of the data)
+- designing the final visualisation with the information hierarchy in mind
+- a final testing phase.
+
+Tip: not all datasets are useful for every audience, so be mindful of potential information overload. For example, turning layers on and off can help with this.
+
+The key questions to ask include (but are not limited to):
+
+- Where and when will individual users use the interactive visualisation?
+- What places are most frequented/popular?
+- What patterns can be found? How can you help the user to discover patterns?
+- Are there any anomalies or specifics of any particular location/type of data?
+- What platform should be used (computer, mobile, kiosk, etc.)?
+
+Potential sources of data for your interface include:
+
+- City of Melbourne – Open Data Portal [Links](https://data.melbourne.vic.gov.au/).
+- Victorian Government open data [Links](https://data.vic.gov.au/)
+- A good GIS source directory can be found at the University of Melbourne Library: Australian GIS data guide: [Links](http://unimelb.libguides.com/GIS)
+
+Some years ago a geodatabase (.gdb) of potentially relevant layers was compiled. You can still [download the geodatabase here](https://canvas.lms.unimelb.edu.au/courses/188035/files/18548835?wrap=1)[ Download download the geodatabase](https://canvas.lms.unimelb.edu.au/courses/188035/files/18548835/download?download_frd=1)- extract the folder from the .zip file without changing the folder name. However, you are encouraged to seek out up-to-date versions of these datasets from the websites listed above.
+
+You are encouraged to start with exploring and analysing these datasets in Tableau or GIS software such as QGIS. You will then have a choice to export your chosen datasets into other formats if required. These types of files can then be used in the finished interface. 
+
+### Technical Requirements
+
+You will create **either**:
+
+- An R Shiny interface that incorporates one or more Tableau visualisations, **or**
+- A Tableau interface that incorporates one or more R Shiny visualisations.
+
+(As with Assignment 2, you may use any R packages you wish, but the **install.packages** command must not be included in your script.)
+
+### Submission
+
+This exercise is a group-based assignment.
+
+The assessment is worth **35%** of your final subject mark.
+
+This assessment will comprise (A) the implementation of, and a report on, your developed tool – **25%** of your final subject mark – and (B) a recorded video of your work, including a demonstration of the developed tool – **10%** of your final subject mark.
+
+#### **A. Implementation and Report**
+
+One group member must submit **two** files to this assignment by the stated deadline:
+
+1. A single **zipped file** containing your interface and any required data. The interface can be a Shiny interface containing embedded Tableau vizzes, **or** a Tableau dashboard or story containing embedded Shiny elements. You can include any other files that are needed. There **must** be a **README.txt** file (with exactly that filename) explaining to the marker how to launch your interface.
+
+2. A PDF report, submitted simultaneously into Canvas (**not** inside your zipped file), that contains the following sections
+
+   1. a design summary (maximum 2 pages) explaining:
+      - what your interface **does**
+      - how it **works**
+      - what **features** of the design you would like to receive credit for
+      - a justification of the **design decisions** made (e.g. why a particular colour scheme is used, or why a particular graph is the best visualisation of the underlying data)
+
+   2. a summary (maximum 2 pages) showcasing:
+
+      - some of the **interesting or useful patterns** or **information** that the interface helps you discover (standing in the shoes of the target user group(s)), and
+
+      - a short **rationale** as to why your tool helped in those discoveries or use cases.
+
+        *Tip: the rationale may link with the design decisions mentioned above. Also, the best summaries will make links back to the lecture materials or additional readings.* 
+
+   3. a group member contribution table containing one row for each group member, as follows:
+
+| **Name** | Contribution to project (max 50 words)                       | Percentage contribution |
+| -------- | ------------------------------------------------------------ | ----------------------- |
+| Hua Li   | Write no more than 50 words to describe Hua's contribution to the project. | 25%                     |
+| Tim Fox  | Write no more than 50 words to describe Tim's contribution to the project. | 25%                     |
+| ...      | ...                                                          | ...                     |
+
+The rubric for the interface and report can be found below.
+
+#### **B. Video**
+
+See [Assignment 3: Group Project (Video)](https://canvas.lms.unimelb.edu.au/courses/188035/assignments/468026).
+
+### Deadline
+
+You must submit the two parts of the project by **Monday 28 October 2024, 5:00 pm**.
+
+A late penalty may be applied on the basis of the lateness if there is no extension being approved prior to the deadline. Students must apply for an extension directly to the faculty and/or in accordance with the faculty’s published process; and prior to the submission deadline or performance date of the assessment task. For more details, please refer to https://ask.unimelb.edu.au/faq/5667/.
+
+Assessments submitted after the original due date without an extension, or after the new due date if an extension has been granted by the Subject Coordinator, will be subject to a penalty of **10% in the mark received in this assessment for each working day the assessment task is late**. For example, if you are late by one day and your assessment reaches a standard of 80 out of 100, you will now receive 70 in this assessment only.
+
+- The submission deadline for parts A and B is on **Monday 28 October 2024 at 5:00 pm**.
+- A late penalty (**10% reduction per day**) may be applied on the basis of the lateness if no extension is approved prior to the deadline.
+- If you require an extension for your assignment, you should follow the steps outlined [here](https://eng.unimelb.edu.au/students/coursework/study-resources/extensions-and-special-consideration) with all required documentation. 
+- Assessments submitted after the original due date without an extension, or after the new due date if an extension has been granted by the Subject Coordinator, will be subject to **a penalty of 10% in the mark received in this assessment for each day the assessment task is late**. For example, if you are late by one day and your assessment reaches a standard of 80 out of 100, you will now receive 70 in this assessment only.
+
+### Assessment Criteria
+
+The key assessment criteria for Part A are written below as part of the rubric. **TO COME**
+
+As a guide to overall grade-related criteria: 
+
+- <50%: *Inadequate work* that fails to meet basic technical standards or apply basic design principles in one or more respects.
+- 50-60%: *Satisfactory work* that is a correctly submitted basic interface to the data.
+- 60-70%: *Good work* that involves marginal additional technical challenge or marginal design innovation, and moderate levels of design quality. 
+- 70-80%: *Excellent work* that involves clear additional technical challenges, additional design innovation and high levels of design quality. 
+- \>80%: *Outstanding work* that demonstrates substantial additional technical challenge, substantial design innovation, flawless design, and involves work that clearly goes beyond that normally expected in class. 
+
+### Hints
+
+- Plan to submit on time.
+- Try to be creative and innovative.
+- Think carefully about any visual aid you use in your tool and video.
+- When recording the video and presenting interface functionality, you can mix slides, demonstrations of the interface, or other more innovative approaches to demonstrate different aspects of the tool.
+- Spelling and grammar are part of the assessment. Your video, visual aid, code commenting, and associated documentation should exhibit attention to detail, and should be free of errors.
+- Including an interesting infographic in your interface can earn you extra points, especially if it is interactive!
+- In your design summary, you should highlight the design rationale and design choices for your interface.
+- In your report, you should highlight the most important information that is being presented in your interface, explaining how the features of your interface assist in learning about Melbourne for your chosen audience/user group.
+
+### Plagiarism
+
+**In short: you must clearly acknowledge any material you have used in your assessment.** Plagiarism is copying and use of another's work without proper acknowledgement. The university has a clear policy prohibiting any form of plagiarism. Further information can be found at [this website](http://www.services.unimelb.edu.au/plagiarism).
+
+Note that it is acceptable to reuse ideas and code you have found on the web *as long as the source is clearly acknowledged and that use is permitted by any license restrictions*. If properly acknowledged, using other people's code and ideas can count as independent background research (see grade-related criteria above). If not properly acknowledged, using other people's code and ideas is plagiarism and will result in a mark of zero for this assessment. In serious cases, plagiarism may also result in failure of the entire subject and further University disciplinary action.
+
+### Q&A
+
+If you have any questions about Assessment 3, please post them on the [Discussion Board](https://canvas.lms.unimelb.edu.au/courses/188035/discussion_topics/1130373) for this assessment. The tutors will attend to questions there on a regular basis. If you know the answer to any questions, you are also welcome to post your answer. You can also ask questions in the lab sessions. We are a learning community and interaction is always welcome. Of course, if you have any specific questions, you can also email your tutor to seek help.
+
+### Rubric
+
+<div class="row">
+  <img src="./img/Rubric.png" alt="Figure 1 - GEOM90007 Assignment 2 Rubric">
+</div>
